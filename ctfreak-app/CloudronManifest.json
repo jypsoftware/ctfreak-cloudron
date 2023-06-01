@@ -1,0 +1,24 @@
+{
+  "id": "software.jyp.ctfreakapp",
+  "title": "Ctfreak",
+  "author": "JYP Software <hello@jyp.software>",
+  "description": "file://DESCRIPTION.md",
+  "version": "0.1.0",
+  "upstreamVersion": "1.19.2",
+  "tagline": "Schedule tasks (shell scripts, sql scripts, api calls, workflows), check logs, get notified",
+  "healthCheckPath": "/isalive",
+  "httpPort": 6700,
+  "website": "https://ctfreak.com/",
+  "contactEmail": "support@ctfreak.com",
+  "addons": {
+    "localstorage": {}
+  },
+  "icon": "file://logo-256.png",
+  "tags": [ "scheduling", "devops", "cron", "bash", "powershell", "sql"],
+  "changelog": "file://CHANGELOG.md",
+  "postInstallMessage": "file://POSTINSTALL.md",
+  "documentationUrl": "https://ctfreak.com/docs",
+  "mediaLinks": [],
+  "memoryLimit": 268435456,
+  "manifestVersion": 2
+}
