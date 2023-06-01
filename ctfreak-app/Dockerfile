@@ -7,7 +7,7 @@ RUN apt install ca-certificates -y \
 RUN mkdir -p /app/code
 WORKDIR /app/code
 
-ARG VERSION=1.19.2
+ARG VERSION=1.9.2
 RUN curl -L https://ctfreak.com/download/release/${VERSION}/linux/amd64 -o /app/code/ctfreak \
     && chmod a+x /app/code/ctfreak
 
