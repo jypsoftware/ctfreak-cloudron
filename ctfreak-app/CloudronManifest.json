@@ -4,7 +4,7 @@
   "author": "JYP Software <hello@jyp.software>",
   "description": "file://DESCRIPTION.md",
   "version": "0.1.0",
-  "upstreamVersion": "1.19.2",
+  "upstreamVersion": "1.9.2",
   "tagline": "Schedule tasks (shell scripts, sql scripts, api calls, workflows), check logs, get notified",
   "healthCheckPath": "/isalive",
   "httpPort": 6700,
